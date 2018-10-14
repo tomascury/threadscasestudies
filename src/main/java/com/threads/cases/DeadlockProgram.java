@@ -38,8 +38,10 @@ public class DeadlockProgram {
     }
 
     private static class DeadlockRunnable implements Runnable {
+
         private final Object firstResource;
         private final Object secondResource;
+
         public DeadlockRunnable(Object firstResource, Object secondResource) {
             this.firstResource = firstResource;
             this.secondResource = secondResource;
