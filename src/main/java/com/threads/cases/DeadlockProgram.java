@@ -1,7 +1,7 @@
 package com.threads.cases;
 
 /**
- * Source: https://dzone.com/articles/how-to-read-a-thread-dump
+ * @see <a href="https://dzone.com/articles/how-to-read-a-thread-dump">How to Read a Thread Dump</a>
  *
  * thread dump
  *
