@@ -12,7 +12,7 @@ package com.threads.cases;
  * When all non-daemon threads finish, the JVM halts, and any remaining daemon threads are abandoned:
  *
  *      * finally blocks are not executed,
- *      *stacks are not unwound - the JVM just exits.
+ *      * stacks are not unwound - the JVM just exits.
  *
  * Due to this reason daemon threads should be used sparingly, and it is dangerous to use them for tasks that might
  * perform any sort of I/O.
