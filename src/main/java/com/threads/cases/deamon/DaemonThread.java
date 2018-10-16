@@ -1,4 +1,4 @@
-package com.threads.cases;
+package com.threads.cases.deamon;
 
 /**
  * A daemon thread is a thread that does not prevent the JVM from exiting when the program finishes but the thread is

@@ -1,4 +1,4 @@
-package com.threads.cases;
+package com.threads.cases.synchronizedeg;
 
 import java.util.ArrayList;
 import java.util.List;
